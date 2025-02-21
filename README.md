@@ -60,3 +60,11 @@ python activity_recognition.py -m path/to/model -c path/to/classes.txt [-i path/
    - Optional - Set to `1` to display the output frames in real time; set to `0` to disable. Default is `1`
 - `-g, --gpu`
    - Optional - Set to `1` to enable GPU processing (requires CUDA-enabled OpenCV); set to `0` to use the CPU. Default is `0`
+ 
+  ### Example
+   
+   ```bash
+   python activity_recognition.py -m models/resnet-34_kinetics.onnx -c models/labels.txt -i input_video.mp4 -o output_video.mp4 -d 1 -g 0
+   ```
+
+
