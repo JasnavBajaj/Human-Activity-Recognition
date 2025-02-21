@@ -50,3 +50,13 @@ python activity_recognition.py -m path/to/model -c path/to/classes.txt [-i path/
 ## Command-Line Arguments
 - `-m, --model`
   **Required** - Path to the pre-trained deep learning model file.
+- `-m, --model`
+  **Required** - Path to the pre-trained deep learning model file.
+- `-m, --model`
+  **Required** - Path to the pre-trained deep learning model file.
+- `-m, --model`
+  **Required** - Path to the pre-trained deep learning model file.
+- `-m, --model`
+  **Required** - Path to the pre-trained deep learning model file.
+- `-m, --model`
+  **Required** - Path to the pre-trained deep learning model file.
