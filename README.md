@@ -84,18 +84,26 @@ python activity_recognition.py -m path/to/model -c path/to/classes.txt [-i path/
 3. **Video Stream Processing:** - Frames are read in batches from the video stream. Each batch is processed by resizing, converting to a blob, and passing through the model to predict the activity.
 4. **Displaying and Writing Frames:** - The recognized activity label is overlayed on the frames. The frames are then displayed and/or written to an output video file if specified.
 
+---
+
 ## Troubleshooting 
 
 1. **Large Files Issue:** - If your model file is larger than 100 MB, ensure it’s managed via Git LFS. For more information, see Git LFS.
 2. **GPU Errors:** - Confirm that your OpenCV build supports CUDA if you enable GPU processing `(-g 1)`.
 3. **Video Capture Issues:** - If no frames are read from the video source, verify the correctness of the video file path or ensure that your webcam is functioning properly.
 
+---
+
 ## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
+
+---
 
 ## Acknowledgements
 
 - OpenCV
 - imutils
 - Git LFS
+
+  **For any questions or issues, please open an issue on the repository or contact `bjasnav@gmail.com`.**
