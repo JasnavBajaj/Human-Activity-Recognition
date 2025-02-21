@@ -49,14 +49,14 @@ python activity_recognition.py -m path/to/model -c path/to/classes.txt [-i path/
 
 ## Command-Line Arguments
 - `-m, --model`
-  **Required** - Path to the pre-trained deep learning model file.
-- `-m, --model`
-  **Required** - Path to the pre-trained deep learning model file.
-- `-m, --model`
-  **Required** - Path to the pre-trained deep learning model file.
-- `-m, --model`
-  **Required** - Path to the pre-trained deep learning model file.
-- `-m, --model`
-  **Required** - Path to the pre-trained deep learning model file.
-- `-m, --model`
-  **Required** - Path to the pre-trained deep learning model file.
+   - **Required** - Path to the pre-trained deep learning model file.
+- `-c, --classes`
+   - **Required** - Path to the text file containing class labels (one per line).
+- `-i, --input`
+   - Optional - Path to an input video file. If omitted, the webcam is used.
+- `-o, --output`
+   - Optional. Path to save the output video with annotated activity labels.
+- `-d, --display`
+   - Optional - Set to `1` to display the output frames in real time; set to `0` to disable. Default is `1`
+- `-g, --gpu`
+   - Optional - Set to `1` to enable GPU processing (requires CUDA-enabled OpenCV); set to `0` to use the CPU. Default is `0`
